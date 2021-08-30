@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.control_center {
+    position: absolute;
+    color: #FFFFFF;
+    background-color: #333333;
+    padding: 20px;
+    top: 20px; left: 20px;
+    transition: .2s;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.comment-section {
+    background-color: #444444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.control_center:hover {
+    opacity: 1;
+}
+
+canvas {
+    background-color: #212121;
+}
